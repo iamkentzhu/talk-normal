@@ -6,6 +6,18 @@
 
 ---
 
+## Upstream
+
+- Original author: [hexiecs](https://github.com/hexiecs)
+- Upstream repository: [hexiecs/talk-normal](https://github.com/hexiecs/talk-normal)
+- This repository is an **OpenClaw skill wrapper**, not the official upstream repository
+
+如果上游更新，不建议直接自动同步到生产使用版本。推荐做法是：跟踪 upstream → 人工评审 diff → 验证效果 → 再发布本仓库新版本。
+
+详细策略见 [UPSTREAM.md](./UPSTREAM.md)。
+
+---
+
 ## 工作原理
 
 talk-normal 是一套写进系统提示（system prompt）的输出风格约束规则，不依赖任何工具或 API，只靠文本规则影响模型的生成行为。
