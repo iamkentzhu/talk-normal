@@ -36,7 +36,7 @@ cp SKILL.md ~/.openclaw/skills/talk-normal/SKILL.md
 ### 方法二：克隆整个仓库
 
 ```bash
-git clone <this-repo> ~/.openclaw/skills/talk-normal
+git clone https://github.com/iamkentzhu/talk-normal ~/.openclaw/skills/talk-normal
 ```
 
 ---
